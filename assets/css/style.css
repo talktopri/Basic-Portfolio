@@ -163,6 +163,103 @@ img {
     
 }
 
+form {
+    margin: 20px;
+    color: #140A25;
+}
+
+#button {
+    padding: 10px 20px;
+    background: #5A142A;
+    color: #F0DAE3;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+}
+      
+#button:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+.port-page-title {
+    border-bottom: solid gray 1px;
+    margin: 20px;
+}
+
+.port-main {
+    border: #140A25 solid 1px;
+    background-color: white;
+    width: 960px;
+    height: auto;
+    position: fixed;
+    left: 20%;
+    top: 10%;
+    margin-top: 30px;
+
+    
+}
+
+.project1 {
+    float: left;
+    position: relative;
+    margin-left: 20px;
+}
+
+.project1 p {
+    position: absolute;
+    background: #400D2A;
+    color: #F0DAE3;
+    bottom: 1px;
+    padding: 5px 22px;
+}
+
+.project2 {
+    float: left;
+    position: relative;
+    margin-left: 20px;
+    margin-right: 250px;
+}
+
+.project2 p {
+    position: absolute;
+    background: #400D2A;
+    color: #F0DAE3;
+    bottom: 1px;
+    padding: 5px 20px;
+}
+
+.project3 {
+    float: left;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.project3 p {
+    position: absolute;
+    background: #400D2A;
+    color: #F0DAE3;
+    bottom: 1px;
+    padding: 7px 42px;
+}
+
+.project4 {
+    float: left;
+    position: relative;
+    margin: 10px 0px 50px 20px;
+    
+}
+
+.project4 p {
+    position: absolute;
+    background: #400D2A;
+    color: #F0DAE3;
+    bottom: 1px;
+    padding: 5px 24px;
+    
+}
+
 footer {
     position: -webkit-sticky;
     position: sticky;
@@ -171,7 +268,7 @@ footer {
     width: 100%;
     padding: 25px;
     text-align: center;
-    color: white;
+    color: #F0DAE3;
     height: 60px;
     border-top: 5px solid #140A25
 }
